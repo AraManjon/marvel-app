@@ -10,7 +10,7 @@ export const getCharactersList = async (offset: number): Promise<CharactersListT
 
     const ts = generateTs()
     const API_PRIVATE_KEY = process.env.REACT_APP_API_PRIVATE_KEY || '';
-    const API_PUBLIC_KEY = process.env.REACT_APP_API_PUBLIV_KEY || '';
+    const API_PUBLIC_KEY = process.env.REACT_APP_API_PUBLIC_KEY || '';
     const hash = generateHash(ts, API_PRIVATE_KEY, API_PUBLIC_KEY)
     
     const { data } = await call<CharactersListResponse>(`${API_URL}/characters?offset=${offset}&ts=${ts}&apikey=${API_PUBLIC_KEY}&hash=${hash}`, {
