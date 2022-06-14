@@ -6,7 +6,7 @@ Marvel app is a project that allows you to see all the characters of Marvel Comi
 
 Before explaining anything else, here is the commands to initialize the project:
 
-> git clone 
+> git clone git@github.com:AraManjon/marvel-app.git
 
 > cd marvel-app
 
@@ -17,6 +17,15 @@ Before explaining anything else, here is the commands to initialize the project:
 Runs the app in the development mode.\
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Use API Marvel
+
+To use the app correctly you'll need to create an API_KEY_PUBLIC and API_KEY_PRIVATE. Create an .env file in root directory and save this before start.
+
+REACT_APP_API_PRIVATE_KEY = your private key
+REACT_APP_API_PUBLIC_KEY = your public key
+
+See how to create an API key in [Marvel API documentation](https://developer.marvel.com/account).
 
 ## Technologies of choice
 
