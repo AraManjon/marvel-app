@@ -1,0 +1,48 @@
+.item {
+    width: 12rem;
+    height: 23rem;
+    background: linear-gradient(#151515, #151515 50%, #e62429 50%, #e62429);
+    background-size: 100% 200%;
+    transition: background 0.5s;
+    cursor: pointer;
+    position: relative;
+    color: #bbb;
+}
+.item:hover {
+    background-position: -100% -100%;
+    color: #fff
+}
+
+.img__container {
+    height: 60%;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    border-bottom: 0.30rem solid #e62429;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    font: 600 1rem/1.1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 1rem 1.2rem;
+}
+
+.alias {
+    font: 600 0.8rem/1.1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 1.2rem;
+    bottom: 0.6rem;
+    position: absolute;
+}

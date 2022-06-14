@@ -1,0 +1,9 @@
+.page {
+    margin-top: 6rem;
+}
+
+.title__page {
+    margin: 2rem 6rem;
+    font: 800 1.5rem/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+}

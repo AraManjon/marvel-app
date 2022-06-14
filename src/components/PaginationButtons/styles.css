@@ -1,0 +1,29 @@
+.text {
+    font: 800 1rem/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    margin: 1rem;
+}
+
+.button__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: none;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font: 600 1rem/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    color: #e62429
+}
+
+.hidden {
+    visibility: hidden;
+}
